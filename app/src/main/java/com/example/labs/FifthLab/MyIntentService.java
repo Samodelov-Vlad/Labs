@@ -28,6 +28,9 @@ public class MyIntentService extends IntentService {
     String result;
     ViewModelFileOperations viewModelFileOperations;
 
+    public MyIntentService() {
+        super("myThreadNameDef");
+    }
 
     public MyIntentService(AppCompatActivity activity) {
         super("myThreadName");

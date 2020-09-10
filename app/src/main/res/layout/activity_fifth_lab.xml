@@ -12,9 +12,10 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Генерируется массив большой размерности и заполняется случайными числами от 0 до 9. Затем в массиве подсчитывается количество введенной Вами цифры и выводится в Toast"
+        android:layout_marginBottom="8dp"
+        android:text='При нажатии на кнопку "Вычислить" генерируется массив случайных чисел большой размерности и заполняется случайными числами от 0 до 9. Затем в массиве подсчитывается количество введенной Вами цифры и выводится в Toast'
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +31,8 @@
             android:ems="10"
             android:hint="Введите цифру"
             android:inputType="number"
-            android:maxLength="1" />
+            android:maxLength="1"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/btn_calc"
@@ -38,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onClickCalc"
-            android:text="Вычислить" />
+            android:text="@string/Calculate" />
 
     </LinearLayout>
 
@@ -70,8 +72,7 @@
             <TextView
                 android:id="@+id/tv_fileContent"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="фывф\nasd\nasd" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 

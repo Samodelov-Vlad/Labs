@@ -5,4 +5,10 @@
     <string name="EmptyBtn2">Empty button #2</string>
     <string name="EmptyBtn1">Empty button #1</string>
     <string name="Lab2">Laboratory work #2</string>
+
+
+    <string name="Calculate">Calculate</string>
+    <string name="LR2">2 LR</string>
+    <string name="LR3">3 LR</string>
+    <string name="LR5">5 LR</string>
 </resources>

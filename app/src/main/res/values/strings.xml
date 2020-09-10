@@ -7,4 +7,10 @@
 
 
 
+    <string name="Calculate">Вычислить</string>
+    <string name="LR2">2 ЛР</string>
+    <string name="LR3">3 ЛР</string>
+    <string name="LR5">5 ЛР</string>
+
+
 </resources>

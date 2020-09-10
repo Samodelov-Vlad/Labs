@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="onClickButtonFirstFragment"
-                android:text="Первый фрагмент" />
+                android:text="Фрагмент #1" />
 
             <Button
                 android:id="@+id/button8"
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="onClickButtonSecondFragment"
-                android:text="Второй фрагмент" />
+                android:text="Фрагмент #2" />
 
         </LinearLayout>
 
