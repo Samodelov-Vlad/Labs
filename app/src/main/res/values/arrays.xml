@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_list_colors_titles">
+        <item>Синий</item>
+        <item>Зеленый</item>
+        <item>Желтый</item>
+    </string-array>
+
+    <string-array name="settings_list_colors_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="settings_list_colorsActivity_titles">
+        <item>Белый</item>
+        <item>Лайм</item>
+        <item>Оранжевый</item>
+        <item>Зеленый</item>
+    </string-array>
+
+    <string-array name="settings_list_colorsActivity_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

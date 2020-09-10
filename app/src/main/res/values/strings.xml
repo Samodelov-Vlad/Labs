@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Лабораторные работы</string>
+    <string name="Lab2">Лабораторная работа #2</string>
+    <string name="EmptyBtn1">Пустая кнопка #1</string>
+    <string name="EmptyBtn2">Пустая кнопка #2</string>
+    <string name="EmptyBtn3">Пустая кнопка #3</string>
+
+
+
+</resources>

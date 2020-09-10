@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="EmptyBtn3">Empty button #3</string>
+    <string name="EmptyBtn2">Empty button #2</string>
+    <string name="EmptyBtn1">Empty button #1</string>
+    <string name="Lab2">Laboratory work #2</string>
+</resources>
