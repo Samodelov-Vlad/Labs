@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -38,7 +39,7 @@ public class FifthLabActivity extends AppCompatActivity {
         viewModelFileOperations = ViewModelProviders.of(this).get(ViewModelFileOperations.class);
         et_number = findViewById(R.id.et_num);
         tv_fileContent = findViewById(R.id.tv_fileContent);
-        mMyBroadcastReceiver = new MyBroadcastReceiver();
+        mMyBroadcastReceiver = new MyBroadcastReceiver(this);
         // регистрируем BroadcastReceiver
         IntentFilter intentFilter = new IntentFilter(MyIntentService.ACTION_MYINTENTSERVICE);
         intentFilter.addCategory(Intent.CATEGORY_DEFAULT);
@@ -63,7 +64,8 @@ public class FifthLabActivity extends AppCompatActivity {
     public void onClickCalc(View view) {
         if (checkInputFields()) {
             Intent intentMyIntentService = new Intent(this, MyIntentService.class);
-            startService(intentMyIntentService.putExtra("number", Integer.parseInt(et_number.getText().toString())));
+            intentMyIntentService.putExtra("number", Integer.parseInt(et_number.getText().toString()));
+            startService(intentMyIntentService);
         }
     }
 

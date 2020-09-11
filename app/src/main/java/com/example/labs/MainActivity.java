@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             }
     }
 
+
     public void onClickCalculate(View view) {
         if (checkInputFields()) {
             int a = Integer.parseInt(et_number1.getText().toString());

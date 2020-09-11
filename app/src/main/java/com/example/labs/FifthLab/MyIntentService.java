@@ -26,20 +26,15 @@ public class MyIntentService extends IntentService {
     public static final String ACTION_MYINTENTSERVICE = "ru.samodelovvlad.intentservice.RESPONSE";
     public static final String EXTRA_KEY_OUT = "EXTRA_OUT";
     String result;
-    ViewModelFileOperations viewModelFileOperations;
 
     public MyIntentService() {
         super("myThreadNameDef");
     }
 
-    public MyIntentService(AppCompatActivity activity) {
-        super("myThreadName");
-        viewModelFileOperations = ViewModelProviders.of(activity).get(ViewModelFileOperations.class);
-    }
 
     @Override
     protected void onHandleIntent(Intent intent) {
-         int number = intent.getIntExtra("number", 0);
+        int number = intent.getIntExtra("number", 0);
         result = task(number);
 
         // возвращаем результат
@@ -64,7 +59,6 @@ public class MyIntentService extends IntentService {
         }
         list.clear();
         String resultMsg = String.format(Locale.getDefault(),"Число %d встречается в массиве %d раз.", number, countOfNum);
-        viewModelFileOperations.writeFile (resultMsg+"\n");
         return resultMsg;
     }
 
