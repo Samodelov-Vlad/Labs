@@ -11,18 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <receiver
-            android:name=".FifthLab.MyBroadcastReceiver"
-            android:enabled="true"
-            android:exported="false"></receiver>
+        <activity android:name=".View.EighthLabActivity"></activity>
 
-        <service
-            android:name=".FifthLab.MyIntentService"
+        <receiver
+            android:name=".View.FifthLab.MyBroadcastReceiver"
+            android:enabled="true"
             android:exported="false" />
 
-        <activity android:name=".SixthLab.SettingsActivity"/>
+        <service
+            android:name=".View.FifthLab.MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".View.SixthLab.SettingsActivity" />
         <activity
-            android:name=".FifthLab.WebViewActivity"
+            android:name=".View.FifthLab.WebViewActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -35,7 +37,7 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name=".FifthLab.FifthLabActivity">
+        <activity android:name=".View.FifthLab.FifthLabActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -44,12 +46,12 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
-        <activity android:name=".FourthLab.FourthLabActivity" />
-        <activity android:name=".ThirdLab.ThirdLabActivityWithFragment_2" />
-        <activity android:name=".ThirdLab.ThirdLabActivityWithFragment_1" />
-        <activity android:name=".ThirdLab.ThirdLabActivity" />
-        <activity android:name=".SecondLabActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".View.FourthLab.FourthLabActivity" />
+        <activity android:name=".View.ThirdLab.ThirdLabActivityWithFragment_2" />
+        <activity android:name=".View.ThirdLab.ThirdLabActivityWithFragment_1" />
+        <activity android:name=".View.ThirdLab.ThirdLabActivity" />
+        <activity android:name=".View.SecondLabActivity" />
+        <activity android:name=".View.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

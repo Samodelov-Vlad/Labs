@@ -1,28 +1,19 @@
-package com.example.labs.FifthLab;
+package com.example.labs.View.FifthLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.labs.MainViewModel;
 import com.example.labs.R;
-import com.example.labs.ViewModelFileOperations;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.example.labs.ViewModel.ViewModelFileOperations;
 
 
 public class FifthLabActivity extends AppCompatActivity {

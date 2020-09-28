@@ -1,4 +1,4 @@
-package com.example.labs.FifthLab;
+package com.example.labs.View.FifthLab;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.labs.ViewModelFileOperations;
+import com.example.labs.ViewModel.ViewModelFileOperations;
 
 public class MyBroadcastReceiver extends BroadcastReceiver {
 

@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".View.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        tools:context=".ThirdLab.FirstBlankFragment">
+        tools:context=".View.ThirdLab.FirstBlankFragment">
 
         <EditText
             android:id="@+id/et_number1"
@@ -48,14 +48,11 @@
         android:onClick="onClickCalculate"
         android:text="@string/Calculate" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="220dp" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:onClick="onClickOpen2Lab"
         android:text="@string/LR2" />
 
@@ -72,5 +69,12 @@
         android:layout_height="wrap_content"
         android:onClick="onClickOpen5Lab"
         android:text="@string/LR5" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOpen8Lab"
+        android:text="@string/LR8" />
 
 </LinearLayout>

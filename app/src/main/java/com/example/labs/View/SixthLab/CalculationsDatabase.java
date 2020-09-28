@@ -1,4 +1,4 @@
-package com.example.labs.SixthLab;
+package com.example.labs.View.SixthLab;
 
 import android.content.Context;
 
@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.labs.FourthLab.Calculation;
+import com.example.labs.model.Calculation;
 
 @Database(entities = {Calculation.class}, version = 2, exportSchema = false)
 public abstract class CalculationsDatabase extends RoomDatabase {

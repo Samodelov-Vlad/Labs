@@ -5,12 +5,12 @@
         android:id="@+id/action_4LR_List"
         android:orderInCategory="1"
         app:showAsAction="always"
-        android:title="4 ЛР. Список" />
+        android:title="Список (4 ЛР)"/>
 
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="Настроойки"
+        android:title="Настройки (6 ЛР)"
         app:showAsAction="never" />
 
 

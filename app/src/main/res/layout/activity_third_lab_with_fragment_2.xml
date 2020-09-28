@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdLab.ThirdLabActivityWithFragment_2">
+    tools:context=".View.ThirdLab.ThirdLabActivityWithFragment_2">
 
     <fragment
         android:id="@+id/fragment4"
-        android:name="com.example.labs.ThirdLab.SecondBlankFragment"
+        android:name="com.example.labs.View.ThirdLab.SecondBlankFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_second_blank" />

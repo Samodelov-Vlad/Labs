@@ -1,4 +1,4 @@
-package com.example.labs;
+package com.example.labs.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,11 +18,13 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.example.labs.FifthLab.FifthLabActivity;
-import com.example.labs.FourthLab.Calculation;
-import com.example.labs.FourthLab.FourthLabActivity;
-import com.example.labs.SixthLab.SettingsActivity;
-import com.example.labs.ThirdLab.ThirdLabActivity;
+import com.example.labs.View.FifthLab.FifthLabActivity;
+import com.example.labs.R;
+import com.example.labs.model.Calculation;
+import com.example.labs.View.FourthLab.FourthLabActivity;
+import com.example.labs.View.SixthLab.SettingsActivity;
+import com.example.labs.View.ThirdLab.ThirdLabActivity;
+import com.example.labs.ViewModel.MainViewModel;
 
 import java.util.Locale;
 
@@ -107,6 +109,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickOpen5Lab(View view) {
         Intent intent = new Intent(this, FifthLabActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickOpen8Lab(View view) {
+        Intent intent = new Intent(this, EighthLabActivity.class);
         startActivity(intent);
     }
 

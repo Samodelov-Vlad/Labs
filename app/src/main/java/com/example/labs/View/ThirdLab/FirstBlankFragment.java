@@ -1,4 +1,4 @@
-package com.example.labs.ThirdLab;
+package com.example.labs.View.ThirdLab;
 
 import android.os.Bundle;
 

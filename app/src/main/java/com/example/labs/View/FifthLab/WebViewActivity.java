@@ -1,4 +1,4 @@
-package com.example.labs.FifthLab;
+package com.example.labs.View.FifthLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.labs.R;
@@ -6,8 +6,6 @@ import com.example.labs.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebView;
-
-import java.util.Objects;
 
 public class WebViewActivity extends AppCompatActivity {
 

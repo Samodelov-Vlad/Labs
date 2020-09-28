@@ -1,4 +1,4 @@
-package com.example.labs.SixthLab;
+package com.example.labs.View.SixthLab;
 
 import android.os.Bundle;
 import android.view.MenuItem;

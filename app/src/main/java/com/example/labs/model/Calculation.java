@@ -1,4 +1,4 @@
-package com.example.labs.FourthLab;
+package com.example.labs.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -11,7 +11,7 @@ import androidx.room.PrimaryKey;
 public class Calculation {
     @PrimaryKey(autoGenerate = true)
     private int id;
-    int num1, num2, sum;
+    public int num1, num2, sum;
 
     public Calculation(int id, int num1, int num2, int sum) {
         this.id = id;

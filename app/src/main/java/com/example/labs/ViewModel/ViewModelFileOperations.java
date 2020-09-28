@@ -1,4 +1,4 @@
-package com.example.labs;
+package com.example.labs.ViewModel;
 
 import android.app.Application;
 import android.content.Context;

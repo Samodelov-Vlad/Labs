@@ -1,4 +1,4 @@
-package com.example.labs;
+package com.example.labs.ViewModel;
 
 import android.app.Application;
 import android.os.AsyncTask;
@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
-import com.example.labs.FourthLab.Calculation;
-import com.example.labs.SixthLab.CalculationsDatabase;
+import com.example.labs.model.Calculation;
+import com.example.labs.View.SixthLab.CalculationsDatabase;
 
 import java.util.List;
 

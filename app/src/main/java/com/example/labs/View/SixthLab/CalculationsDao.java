@@ -1,15 +1,13 @@
-package com.example.labs.SixthLab;
+package com.example.labs.View.SixthLab;
 
-import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.labs.FourthLab.Calculation;
+import com.example.labs.model.Calculation;
 
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Dao

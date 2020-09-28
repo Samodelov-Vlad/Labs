@@ -1,8 +1,6 @@
-package com.example.labs.FourthLab;
+package com.example.labs.View.FourthLab;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.labs.MainViewModel;
+import com.example.labs.ViewModel.MainViewModel;
 import com.example.labs.R;
 
 public class FourthLabActivity extends AppCompatActivity {

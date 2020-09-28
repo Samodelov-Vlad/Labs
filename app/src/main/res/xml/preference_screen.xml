@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-
         <ListPreference
-            android:defaultValue="0"
             android:entries="@array/settings_list_colors_titles"
             android:entryValues="@array/settings_list_colors_values"
             android:key="ColorActionBar"
-            android:title="Цвет меню главного окна" />
+            android:title="Цвет меню главного окна"
+            android:defaultValue="0"/>
 
         <ListPreference
-            android:defaultValue="0"
             android:entries="@array/settings_list_colorsActivity_titles"
             android:entryValues="@array/settings_list_colorsActivity_values"
             android:key="ColorActivity"
-            android:title="Цвет фона главного окна" />
+            android:title="Цвет фона главного окна"
+            android:defaultValue="0" />
 
 
 </PreferenceScreen>

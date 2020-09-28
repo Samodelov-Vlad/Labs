@@ -5,13 +5,13 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ThirdLab.FirstBlankFragment">
+    tools:context=".View.ThirdLab.FirstBlankFragment">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        tools:context=".ThirdLab.FirstBlankFragment">
+        tools:context=".View.ThirdLab.FirstBlankFragment">
 
         <EditText
             android:id="@+id/et_number1"

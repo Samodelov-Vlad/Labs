@@ -1,24 +1,8 @@
-package com.example.labs.FifthLab;
+package com.example.labs.View.FifthLab;
 
-import android.app.Activity;
 import android.app.IntentService;
-import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProviders;
-
-import com.example.labs.MainActivity;
-import com.example.labs.ViewModelFileOperations;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Locale;
 

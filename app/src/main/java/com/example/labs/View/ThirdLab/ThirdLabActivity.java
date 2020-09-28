@@ -1,4 +1,4 @@
-package com.example.labs.ThirdLab;
+package com.example.labs.View.ThirdLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
