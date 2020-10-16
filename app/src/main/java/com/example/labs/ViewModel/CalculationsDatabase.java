@@ -1,4 +1,4 @@
-package com.example.labs.View.SixthLab;
+package com.example.labs.ViewModel;
 
 import android.content.Context;
 

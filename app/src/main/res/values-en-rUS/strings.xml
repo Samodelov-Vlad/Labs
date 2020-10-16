@@ -12,4 +12,6 @@
     <string name="LR3">3 LR</string>
     <string name="LR5">5 LR</string>
     <string name="LR8">8 LR</string>
+    <string name="input2ndNumber">Input 2nd number</string>
+    <string name="input1stNumber">Input 1st number</string>
 </resources>

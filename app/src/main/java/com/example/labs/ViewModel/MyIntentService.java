@@ -1,4 +1,4 @@
-package com.example.labs.View.FifthLab;
+package com.example.labs.ViewModel;
 
 import android.app.IntentService;
 import android.content.Intent;

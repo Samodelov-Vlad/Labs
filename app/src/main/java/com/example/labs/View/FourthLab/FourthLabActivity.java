@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-
+import com.example.labs.ViewModel.DataAdapter;
 import com.example.labs.ViewModel.MainViewModel;
 import com.example.labs.R;
 

@@ -1,4 +1,4 @@
-package com.example.labs.View.SixthLab;
+package com.example.labs.ViewModel;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

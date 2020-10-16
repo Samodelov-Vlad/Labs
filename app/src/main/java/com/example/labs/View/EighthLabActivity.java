@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.Interpolator;
 import android.widget.ImageView;
 
 import com.example.labs.R;
@@ -21,6 +23,7 @@ public class EighthLabActivity extends AppCompatActivity {
 
     public void doTranslateAnimation(View view){
         Animation tr = AnimationUtils.loadAnimation(this, R.anim.translasiya);
+        tr.setInterpolator(new AccelerateInterpolator(2.5f));
         img.startAnimation(tr);
     }
 

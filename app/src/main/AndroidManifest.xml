@@ -14,12 +14,12 @@
         <activity android:name=".View.EighthLabActivity"></activity>
 
         <receiver
-            android:name=".View.FifthLab.MyBroadcastReceiver"
+            android:name=".ViewModel.MyBroadcastReceiver"
             android:enabled="true"
             android:exported="false" />
 
         <service
-            android:name=".View.FifthLab.MyIntentService"
+            android:name=".ViewModel.MyIntentService"
             android:exported="false" />
 
         <activity android:name=".View.SixthLab.SettingsActivity" />

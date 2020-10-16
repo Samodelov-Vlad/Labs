@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         et_number1 = findViewById(R.id.et_number1);
         et_number2 = findViewById(R.id.et_number2);
         def_pref = PreferenceManager.getDefaultSharedPreferences(this);
+
     }
 
     @Override
@@ -88,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean checkInputFields(){
         if (et_number1.length()==0) {
-            Toast.makeText(this, "Введите первое число", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.input1stNumber, Toast.LENGTH_SHORT).show();
             return false;
         } else if (et_number2.length()==0) {
-            Toast.makeText(this, "Введите второе число", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.input2ndNumber, Toast.LENGTH_SHORT).show();
             return false;
         }
         return true;

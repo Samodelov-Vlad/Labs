@@ -1,4 +1,4 @@
-package com.example.labs.View.FourthLab;
+package com.example.labs.ViewModel;
 
 
 import android.view.LayoutInflater;
@@ -18,7 +18,7 @@ import java.util.Locale;
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataHolder> {
     private List<Calculation> listItem;
 
-    DataAdapter(List<Calculation> list) {
+    public DataAdapter(List<Calculation> list) {
         this.listItem = list;
     }
 

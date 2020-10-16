@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
 import com.example.labs.model.Calculation;
-import com.example.labs.View.SixthLab.CalculationsDatabase;
 
 import java.util.List;
 
